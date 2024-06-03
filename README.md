@@ -10,3 +10,11 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/Ibinola/leetcode/tree/master/0344-reverse-string) |
+# Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Ibinola/leetcode/tree/master/0001-two-sum) |
+# Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Ibinola/leetcode/tree/master/0001-two-sum) |
