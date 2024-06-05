@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/Ibinola/leetcode/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/Ibinola/leetcode/tree/master/0027-remove-element) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ibinola/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
 # Hash Table
 |  |
@@ -26,3 +27,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
+# Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Ibinola/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
