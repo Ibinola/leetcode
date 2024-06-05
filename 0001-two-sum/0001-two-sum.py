@@ -6,6 +6,7 @@ class Solution:
             nums_map[number] = i
 
         for i, number in enumerate(nums):
-            number_needed = target - number #[2,7,11,15] -> 6
+            number_needed = target - number #[3:0,2:1,4:2] -> 6 - 3 = 3
+            #   3           [map] and indx(0!=0)
             if number_needed in nums_map and nums_map[number_needed] != i:
                 return [i, nums_map[number_needed]]
