@@ -16,7 +16,13 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/Ibinola/leetcode/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/Ibinola/leetcode/tree/master/0027-remove-element) |
+| [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
 # Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Ibinola/leetcode/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
+# Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
