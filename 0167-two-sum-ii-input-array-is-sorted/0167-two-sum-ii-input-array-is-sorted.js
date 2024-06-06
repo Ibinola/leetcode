@@ -4,29 +4,16 @@
  * @return {number[]}
  */
 var twoSum = function(numbers, target) {
-    /*
-    NB: my solution must use constant extra space ? just to clarify does this mean constant space, or extra space ? 
-        assumptions
-        - can we have floating point numbers ?
-        - can we have duplicates ? no it's non-decreasing
-    */
-    let index1 = 0
-    let index2 = numbers.length - 1;
+    let i = 0
+    let j = numbers.length - 1
 
-    while (index1 < index2){
-        let sum = numbers[index1] + numbers[index2]
-        if(sum == target){
-            return [index1+1, index2+1];
-        }
-
-        if(sum > target){
-            index2--
-        }
-
-        if(sum < target){
-            index1++
+    while (i < j){
+        if (numbers[i] + numbers[j] == target){
+            return [i + 1, j + 1]
+        } else if (numbers[i] + numbers[j] > target){
+            j--
+        } else {
+            i++
         }
     }
-
-    return -1;
 };
