@@ -6,6 +6,9 @@ nagaram -> {a: 2, n: 1, g: 1, r: 1, m: 1}
 
 rat -> {r: 1, a: 1, t: 1}
 car -> {c: 1, a: 1, r: 1}
+
+time complexity - O(n + m)
+space complexity - O(n)
 '''
 
 class Solution:
@@ -13,22 +16,9 @@ class Solution:
         if len(s) != len(t):
             return False
         
-        s_map = {}
-        t_map = {}
+        countS, countT = {}, {} # {r: 1, a: 1}
 
-        for i, element in enumerate(s):
-            if element not in s_map:
-                s_map[element] = 1
-            else:
-                s_map[element] += 1
-        
-        for i, element in enumerate(t):
-            if element not in t_map:
-                t_map[element] = 1
-            else:
-                t_map[element] += 1
-        
-        if s_map == t_map:
-            return True
-        else: 
-            return False
+        for i in range(len(s)):
+            countS[s[i]] = 1 + countS.get(s[i], 0)
+            countT[t[i]] = 1 + countT.get(t[i], 0)
+        return countS == countT
