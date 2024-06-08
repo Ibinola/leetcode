@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview!
 # String
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Ibinola/leetcode/tree/master/0344-reverse-string) |
 # Array
 |  |
@@ -33,12 +34,14 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/Ibinola/leetcode/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
 # Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Ibinola/leetcode/tree/master/0015-3sum) |
 | [0088-merge-sorted-array](https://github.com/Ibinola/leetcode/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
 | [1019-squares-of-a-sorted-array](https://github.com/Ibinola/leetcode/tree/master/1019-squares-of-a-sorted-array) |
 # Dynamic Programming
 |  |
