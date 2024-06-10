@@ -4,23 +4,35 @@
  * @return {boolean}
  */
 var isAnagram = function(s, t) {
-    if (s.length !== t.length){
-        return false;
-    }
-    
-    let lookup = {}
-    
-    for(let char of s){
-        lookup[char] ? lookup[char] +=1 : lookup[char] = 1;
-    }
+    if (s.length !== t.length) return false; 
+
+    let charCount = {};
+
+    /*
+        anagram
+        charCount[a] = 0
+        charCount[]
+
+        {
+            a : 1
+        }
         
-    for(char of t){
-        if(!lookup[char]){
-            return false
-        } else {
-            lookup[char] -= 1;
+        
+        {
+            n : 0
+        }
+    */
+
+    for (let i = 0; i < s.length; i++) { 
+        charCount[s[i]] = (charCount[s[i]] || 0) + 1; // anagram 
+        charCount[t[i]] = (charCount[t[i]] || 0) - 1; // nagaram
+    }
+
+    for (let count in charCount) {
+        if (charCount[count] !== 0) {
+            return false;
         }
     }
-        
+
     return true;
 };
