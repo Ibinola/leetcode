@@ -15,8 +15,8 @@ class Solution:
             if (freq[c] % 2) == 0:
                 res += 2
         
-        for c in s:
-            if freq[c] % 2 == 1:
+        for cnt in freq.values():
+            if cnt % 2 == 1:
                 res += 1
                 break
         
