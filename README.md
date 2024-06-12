@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0125-valid-palindrome](https://github.com/Ibinola/leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Ibinola/leetcode/tree/master/0344-reverse-string) |
+| [0409-longest-palindrome](https://github.com/Ibinola/leetcode/tree/master/0409-longest-palindrome) |
 # Array
 |  |
 | ------- |
@@ -37,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0001-two-sum](https://github.com/Ibinola/leetcode/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
+| [0409-longest-palindrome](https://github.com/Ibinola/leetcode/tree/master/0409-longest-palindrome) |
 # Sorting
 |  |
 | ------- |
@@ -53,3 +55,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Ibinola/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+# Greedy
+|  |
+| ------- |
+| [0409-longest-palindrome](https://github.com/Ibinola/leetcode/tree/master/0409-longest-palindrome) |
