@@ -1,25 +1,27 @@
 /**
  * @param {number[]} nums
  * @return {boolean}
+ [1,2,3,1]
+    {1: 2, 2: 1, 3: 1}
+    if value > 1
+        return True
+    else 
+        False
+ - loop through to check all values
+ - 
  */
 var containsDuplicate = function(nums) {
-    // input :array of numbers, 
-    // output : boolean: true if an element from the array appears at least twice, false if every element is distinct.
+    let unique_map = new Map()
 
-    // [1,2,3,1]
-    //  0 1 2 3
-
-    //  1 == 2,3, 1
-    //  - true
-
-    //  - iterate through each element, and on each element iterate through till the end of the array again, compare each element at each iteration. 
-    for(let i = 0; i < nums.length; i++){
-        for(let j = i + 1; j < nums.length; j++){
-            if(nums[i] == nums[j]){
-                return true;
-            }
-        }
+    for (let num of nums){ // [1,2,3,1] {1: 2, 2: 1, 3:1}
+        unique_map.set(num, (unique_map.get(num) || 0) + 1)
     }
 
-    return false;
+    for(let i = 0; i < nums.length; i++){ // {1: } [2,14,18,22,22]
+        if(unique_map.get(nums[i]) > 1){
+            return true
+        } 
+    }
+
+    return false
 };
