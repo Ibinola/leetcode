@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview!
 # String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/Ibinola/leetcode/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/Ibinola/leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Ibinola/leetcode/tree/master/0344-reverse-string) |
@@ -59,3 +60,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0409-longest-palindrome](https://github.com/Ibinola/leetcode/tree/master/0409-longest-palindrome) |
+# Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Ibinola/leetcode/tree/master/0014-longest-common-prefix) |
