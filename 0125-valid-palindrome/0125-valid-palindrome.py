@@ -1,29 +1,16 @@
 '''
-"A man, a plan, a canal: Panama"
- i                            j
+A man, a plan, a canal: Panama"
 
- amanaplanacanalpanama
-  i                j
- raceacar
-
- newstr = 'amanapaanaaaaa'
-
- - iterate through c in str
-  - if c isa():
-        - newstr".lower()
-
-- return newtrs == new.reverse()[::-1]
-
-race a car
 
 '''
-
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        newStr = '' #a
+        newStr = ''
 
-        for c in s: #A man, a plan, a canal: Panama
+        for c in s:
             if c.isalnum():
                 newStr += c.lower()
         
+
         return newStr == newStr[::-1]
+        
