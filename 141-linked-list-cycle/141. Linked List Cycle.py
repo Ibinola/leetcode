@@ -3,9 +3,10 @@
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
+
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        if head is None or head.next is None:
+        if head is None:
             return False
         
         slow = head
@@ -16,6 +17,7 @@ class Solution:
             fast = fast.next.next
 
             if slow == fast:
-                return True 
+                return True
         
         return False
+        
