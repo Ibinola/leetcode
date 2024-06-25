@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Ibinola/leetcode/tree/master/0344-reverse-string) |
 | [0409-longest-palindrome](https://github.com/Ibinola/leetcode/tree/master/0409-longest-palindrome) |
+| [0782-jewels-and-stones](https://github.com/Ibinola/leetcode/tree/master/0782-jewels-and-stones) |
 # Array
 |  |
 | ------- |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/Ibinola/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Ibinola/leetcode/tree/master/0242-valid-anagram) |
 | [0409-longest-palindrome](https://github.com/Ibinola/leetcode/tree/master/0409-longest-palindrome) |
+| [0782-jewels-and-stones](https://github.com/Ibinola/leetcode/tree/master/0782-jewels-and-stones) |
 # Sorting
 |  |
 | ------- |
