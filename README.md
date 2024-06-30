@@ -110,4 +110,12 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/Ibinola/leetcode/tree/master/0206-reverse-linked-list) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Ibinola/leetcode/tree/master/0020-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Ibinola/leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
