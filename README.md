@@ -108,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0206-reverse-linked-list](https://github.com/Ibinola/leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Ibinola/leetcode/tree/master/0234-palindrome-linked-list) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/Ibinola/leetcode/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Recursion
 |  |
 | ------- |
@@ -122,4 +123,8 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ibinola/leetcode/tree/master/0020-valid-parentheses) |
 | [0234-palindrome-linked-list](https://github.com/Ibinola/leetcode/tree/master/0234-palindrome-linked-list) |
+## Simulation
+|  |
+| ------- |
+| [2299-merge-nodes-in-between-zeros](https://github.com/Ibinola/leetcode/tree/master/2299-merge-nodes-in-between-zeros) |
 <!---LeetCode Topics End-->
